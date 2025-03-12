@@ -18,7 +18,7 @@ jobs:
     - name: Ksu CI
       uses: ./
       with:
-          kernel-url: https://github.com/Fyj69/mcd_kernel_oneplus_sdm845
+          kernel-url: https://github.com/oppo-source/android_kernel_oppo_sm8250/tree/oppo/sm8250_11.0_oppo_pad
           kernel-dir: ksu
           kernel-branch: mcd-OOS-R
           config: mcd_ksu_defconfig
